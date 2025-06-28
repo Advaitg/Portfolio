@@ -1,7 +1,7 @@
 import '../home.css'
 import { useContext } from 'react'
 import { ThemeContext } from '../App'
-import logo from './assets/person2.png';
+import logo from '../assets/person2.png';
 
 export default function Home() {
      const { theme } = useContext(ThemeContext)
