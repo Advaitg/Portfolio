@@ -23,7 +23,7 @@ function App() {
     {/* Desktop Navbar */}
       <nav className="navbar desktop-navbar">
         <div className="brand">
-          <img src="/src/assets/B.png" width="30rem" style={{paddingRight: "10px"}}></img>
+          <img src="/B.png" width="30rem" style={{paddingRight: "10px"}}></img>
           A.G.</div>
         <div className="nav-links">
           <Link to="/" className="nav-item" style={{marginRight:"10px"}} >Home</Link>

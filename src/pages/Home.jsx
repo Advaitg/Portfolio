@@ -23,7 +23,7 @@ export default function Home() {
                 <button className="contact-button">Contact Me</button>
             </div>
 
-            <img src='src\assets\curved_arrow.png'alt="arrow" style={{width: "100px"}}></img>
+            <img src='/curved_arrow.png'alt="arrow" style={{width: "100px"}}></img>
             <div className="hero-right">
                 <div className="image-wrapper">
                 <img
