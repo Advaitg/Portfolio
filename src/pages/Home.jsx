@@ -28,17 +28,12 @@ export default function Home() {
                 <div className="image-wrapper">
                 <img
                     src={logo}
-                    alt="Advait Ghagare"
+                    alt="Advait"
                     className="profile-img"
                 />
                 <div className={classImageOutline}></div>
                 </div>
 
-                {/* <div className="social-icons">
-                <FaInstagram />
-                <FaLinkedin />
-                <FaGithub />
-                </div>  */}
             </div>
         </section>
         </section>

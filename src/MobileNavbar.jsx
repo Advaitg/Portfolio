@@ -8,7 +8,7 @@ function MobileNavbar({ toggleTheme, theme }) {
     <nav className="mobile-navbar">
       <div className="mobile-header">
         <div className="brand">
-          <img src="/src/assets/B.png" width="30rem" style={{ paddingRight: '10px' }} />
+          <img src="/B.png" width="30rem" style={{ paddingRight: '10px' }} />
           A.G.
         </div>
 
