@@ -1,7 +1,7 @@
 import '../home.css'
 import { useContext } from 'react'
 import { ThemeContext } from '../App'
-//import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import logo from './assets/person2.png';
 
 export default function Home() {
      const { theme } = useContext(ThemeContext)
@@ -27,7 +27,7 @@ export default function Home() {
             <div className="hero-right">
                 <div className="image-wrapper">
                 <img
-                    src="/src/assets/person2.png"
+                    src={logo}
                     alt="Advait Ghagare"
                     className="profile-img"
                 />
